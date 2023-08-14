@@ -96,14 +96,14 @@ form.addEventListener("submit",(e)=>{
     if(!comparePass(password.value,passwordA.value)){
         e.preventDefault();
     }
-    if(!(/^(?:\+254|0)(7|1)\d{9}$/).test(phone.value)){
+    if(!(/^(?:\+254|0)[71]\d{8}$/).test(phone.value)){
         alert("Enter valid phone number")
         e.preventDefault();
     }
 })
 
 phone.addEventListener("keyup",()=>{
-    let regex = /^(?:\+254|0)(7|1)\d{9}$/;
+    let regex = /^(?:\+254|0)[71]\d{8}$/;
     if(!regex.test(phone.value)){
         phone.style.color = "red";
     }else{
