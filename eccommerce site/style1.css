@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    box-shadow: 4px 4px 8px rgba(0,0,0,.5);
+}
+.main{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn{
+    margin-right: 40px;
+    font-family: lora;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.sign-up-form{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-form h1{
+    font-size: 40px;
+    margin: 14px;
+    text-transform: capitalize;
+    font-family: poppins;
+}
+.details{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+form{
+    margin: 5%;
+    width: 90%;
+}
+
+.name input{
+    width: 49%;
+}
+input{
+    width: 100%;
+    margin: 3px 0;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 5px;
+}
+.popup{
+    font-size: 12px;
+    align-self: flex-start;
+    display: none;
+}
+.passup{
+    font-size: 12px;
+    align-self: flex-start;
+    display: none;
+}
+.confirm-pass{
+    font-size: 12px;
+    align-self: flex-start;
+    display: none;
+}
+.active{
+    display: inline;
+}
+
+.trouble{
+    font-size: 13px;
+    align-self: flex-start;
+    margin: 5px 0;
+}
+#form hr{
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+.address{
+    margin-top: 10px;
+}
+.country-code {
+    display: inline-block;
+    position: relative;
+    margin: 4px 0;
+}
+
+#country-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: url("down-arrow.png") no-repeat right center;
+    background-size: 20px;
+    width: 79.6%;
+    cursor: pointer;
+}
+
+#country-select option {
+    padding: 8px;
+}
+.t-and-c{
+    width: 100%;
+    font-size: 15px;
+    padding: 5px 0;
+}
+#terms{
+    width: auto;
+}
+.sign-up{
+    width: 100%;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 5px;
+    cursor: pointer;
+    font-family: lora;
+    margin: 15px 0;
+}
+.or-options{
+    font-size: 15px;
+}
+.social-buttons{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.social-buttons button{
+    margin: 0 .5px;
+    width: 32%;
+    cursor: pointer;
+    font-family: lora;
+    font-size: 17px;
+    padding: 0 3px;
+}
+.to-login{
+    cursor: pointer;
+    margin: 5px 0;
+    font-size: 12px;
+}
